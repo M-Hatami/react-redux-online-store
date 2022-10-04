@@ -18,7 +18,13 @@ export const Inventory = ({ inventory, currencyFilter, dispatch }) => {
   };
 
   if (inventory.length === 0) {
-    return <p> Sorry, no products are currently available... </p>;
+    return (
+      <p>
+        {" "}
+        ببخشید، هیچ محصولی با کلمه مورد جستجوی شما مطابقت نمیکند، میخواهید شرایط
+        جستجویتان را تغییر دهید؟{" "}
+      </p>
+    );
   }
 
   return <ul id="inventory-container">{inventory.map(createInventoryItem)}</ul>;
