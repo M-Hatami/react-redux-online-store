@@ -62,7 +62,10 @@ export const Cart = (props) => {
         >
           {[...Array(100).keys()].map((_, index) => (
             <option key={index} value={index}>
-              {index}
+              {new Intl.NumberFormat("fa-IR", {
+            maximumSignificantDigits: 3,
+          }).format(
+                index)}
             </option>
           ))}
         </select>
