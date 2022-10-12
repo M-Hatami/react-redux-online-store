@@ -1,42 +1,42 @@
 export const inventoryData = [
   {
     name: "سیب زرد تازه باغی",
-    price: 23,
+    price: 10000,
     img: "./img/سیب‌زرد.jpg",
   },
   {
     name: "بادام کاغذی",
-    price: 50,
+    price: 150000,
     img: "./img/بادام.jpg",
   },
   {
     name: "سیب سرخ",
-    price: 10,
+    price: 10500,
     img: "./img/سیب‌سرخ.jfif",
   },
   {
     name: "موز جنوب",
-    price: 20,
+    price: 14000,
     img: "./img/موز‌طلایی.jpg",
   },
   {
     name: "نعنا تازه",
-    price: 20,
+    price: 8000,
     img: "./img/نعنا‌تازه.jfif",
   },
   {
     name: "هندوانه فصل",
-    price: 15,
+    price: 3000,
     img: "./img/هندوانه.jpg",
   },
   {
     name: "گوجه قرمز",
-    price: 40,
+    price: 5200,
     img: "./img/گوجه‌قرمز.jpg",
   },
   {
     name: "سیب زمینی شسته",
-    price: 50,
+    price: 9800,
     img: "./img/سیب‌زمینی.jpg",
   },
 ];

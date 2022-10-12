@@ -34,7 +34,10 @@ export const Cart = (props) => {
       <h3 className="total">
         جمع‌کل{" "}
         <span className="total-value">
-          {total} {getCurrencySymbol(currencyFilter)} {currencyFilter}
+          {new Intl.NumberFormat("fa-IR", {
+            maximumSignificantDigits: 3,
+          }).format(total)}{" "}
+          {getCurrencySymbol(currencyFilter)} {currencyFilter}
         </span>
       </h3>
     </div>

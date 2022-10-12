@@ -37,7 +37,10 @@ export const Inventory = ({ inventory, currencyFilter, dispatch }) => {
         <img src={img} alt={""} />
         <h3>{name}</h3>
         <h3 className="price">
-          {displayPrice.toFixed(2)} {getCurrencySymbol(currencyFilter)}
+          {new Intl.NumberFormat("fa-IR", {
+            maximumSignificantDigits: 3,
+          }).format(displayPrice.toFixed(2))}{" "}
+          {getCurrencySymbol(currencyFilter)}
         </h3>
         <button
           onClick={() => onClickHandler(inventoryItem)}
