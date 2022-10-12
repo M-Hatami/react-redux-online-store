@@ -1,3 +1,22 @@
+<html lang="fa" dir="rtl">
+<body>
+<h1>معرفی
+</h1>
+<p>این نمونه تارنما، محصولات موجود در یک فروشگاه مجازی را با قابلیت جستجو نمایش می‌دهد و به کاربر اجازه می‌دهد آنها را به سبد خرید خود اضافه نماید. کاربر می تواند به دو طریق مقدار هر کالا را تغییر دهد. یک: از داخل سبد خرید کاربر میتواند به افزودن، کاهش یا حذف یک کالا مبادرت کند، دوم: با تکرار زدن روی کلید "افزودن به سبد" یک کالا به تعداد آن در سبد بیافزاید. همزمان جمع‌کل پرداختی در پایین صفحه نمایش داده می شود. در نهایت، کاربر می تواند ارز مورد استفاده برای خرید خود را انتخاب کند.
+
+ این سامانه بوسیله ری‌اکت جاوا اسکریپت و ریداکس نوشته شده است:</p>
+<div>
+<img src="https://raw.githubusercontent.com/M-Hatami/react-redux-online-store/master/public/img/screenshot-online-shop-farsi.webp" alt="نمونه رابط کاربری"/>
+</div>
+<br/>
+<p>برای ملاحظه ارائه زنده به <a href="https://react-redux-online-store.netlify.app/">نمونه برخط</a> این طرح مراجعه فرمایید.
+</p>
+</body>
+</html>
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
